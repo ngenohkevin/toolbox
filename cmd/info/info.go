@@ -1,7 +1,6 @@
 package info
 
 import (
-	"fmt"
 	"github.com/spf13/cobra"
 )
 
@@ -10,7 +9,10 @@ var InfoCmd = &cobra.Command{
 	Short: "All things information",
 	Long:  "",
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("info called")
+		err := cmd.Help()
+		if err != nil {
+			return
+		}
 	},
 }
 
