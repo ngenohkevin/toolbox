@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"fmt"
+	"github.com/ngenohkevin/toolbox/cmd/info"
 	"github.com/ngenohkevin/toolbox/cmd/net"
 	"github.com/spf13/cobra"
 	"os"
@@ -18,6 +19,8 @@ var rootCmd = &cobra.Command{
 
 func addSubCommandPalettes() {
 	rootCmd.AddCommand(net.NetCmd)
+	rootCmd.AddCommand(info.InfoCmd)
+
 }
 
 func Execute() {
