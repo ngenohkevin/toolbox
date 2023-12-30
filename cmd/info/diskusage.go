@@ -7,7 +7,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// doesn't work
+// doesn't work yet
 var diskUsageCmd = &cobra.Command{
 	Use:   "diskUsage",
 	Short: "prints disk usage of the current directory",
