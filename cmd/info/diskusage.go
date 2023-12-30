@@ -2,10 +2,12 @@ package info
 
 import (
 	"fmt"
+
 	"github.com/ricochet2200/go-disk-usage/du"
 	"github.com/spf13/cobra"
 )
 
+// doesn't
 var diskUsageCmd = &cobra.Command{
 	Use:   "diskUsage",
 	Short: "prints disk usage of the current directory",
