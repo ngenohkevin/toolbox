@@ -1,3 +1,3 @@
 # toolbox
 
- on cobra CLI
+ cobra CLI
