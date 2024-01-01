@@ -1,3 +1,3 @@
 # toolbox
 
-small tutorial on cobra CLI
+ tutorial on cobra CLI
